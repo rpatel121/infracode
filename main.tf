@@ -9,6 +9,6 @@ resource "aws_instance" "app_server" {
   availability_zone = "us-east-1a"
 
   tags = {
-    Name = "ExampleAppServerInstance"
+    Name = "MyEC2Instance"
   }
 }
