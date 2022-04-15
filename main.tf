@@ -10,7 +10,7 @@ data "aws_ssm_parameter" "ami_id" {
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
 
-  name = "new-vpc"
+  name = "my-newcode"
   cidr = "10.0.0.0/16"
 
   azs            = ["us-east-1a"]
